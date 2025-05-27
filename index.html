@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notes-App</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="notes.png" type="image/png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <input
+        type="text"
+        id="search-bar"
+        placeholder="Search notes by title..."
+        class="search-input"
+      />
+      <div class="header">
+        <h1>Notes</h1>
+        <button class="add-notes">
+          <span
+            class="material-icons"
+            style="font-size: 16px; vertical-align: middle; margin-right: 4px"
+            >add</span
+          >
+          New Note
+        </button>
+      </div>
+      <div class="notes-grid" id="notes-container"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
